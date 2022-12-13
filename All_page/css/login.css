@@ -1,0 +1,48 @@
+html {
+  background: #71C8FD;
+}
+
+html section h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 7rem;
+  color: #fff;
+  margin-bottom: 10rem;
+}
+
+html section:nth-of-type(2) form div.typein {
+  margin-bottom: 3rem;
+}
+
+html section:nth-of-type(2) form div p {
+  background: #fff;
+  width: 70%;
+  padding: 1rem;
+  border-radius: 30px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+html section:nth-of-type(2) form div p img {
+  width: 20px;
+}
+
+html section:nth-of-type(2) form p.button {
+  background: #52B752;
+  width: 60%;
+  padding: 1rem;
+  border-radius: 30px;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+html section:nth-of-type(3) p.new-type {
+  text-align: center;
+  color: #fff;
+  width: 60%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=login.css.map */

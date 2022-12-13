@@ -1,0 +1,105 @@
+html{
+    background: #71C8FD;
+    section:nth-of-type(1){
+        p{
+            img{
+                width: 60px;
+                margin-left: 1rem;
+                margin-top: 1rem;
+            }
+        }
+    }
+    section:nth-of-type(2){
+        margin: 0 auto;
+        margin-top: 3rem;
+        background: #fff;
+        border-radius: 30px;
+        width: 60%;
+        padding: 20px;
+        .icon{
+            width: 100px;
+            height: 100px; 
+            border: solid 1px;
+            border-radius: 50%;/* ←円を作る */
+            margin: 0 auto;
+            margin-bottom: 3rem;
+            p img{
+                width: 40%;
+            }
+        }
+        .news_text{
+            h2{
+                font-size: 1.2rem;
+                margin-bottom: 2rem;
+                text-align: center;
+            }
+            p{
+                font-size: 0.8rem;
+            }
+        }
+    }
+    section#button{
+        display: flex;
+        gap: 1rem;
+        position: relative;
+        top: 40rem;
+        left: 1.1rem;
+        position: fixed;
+        margin-left: 0.5rem;
+
+        p{
+            font-size: 0.9rem;
+            border-radius: 70px;
+            padding: 20px;  
+        }
+        p.de{
+            background: #DD4242;
+            color: #fff;
+        }
+        p.no{
+            background: #EB7B35;
+            color: #fff;
+        }
+        p.ok{
+            background: #52B752;
+            color: #fff;
+        }
+
+    }
+    
+    // 吹き出し
+    .koe1 {
+        position: relative;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        }
+        
+        .koe1:before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 30px;
+        height: 30px;
+        bottom: -10px; left: 20px;
+        margin-left: 0;
+        background-color: #fff;
+        border-radius: 0 50px 0 50px;
+        z-index: -1;
+        }
+        
+        .koe1:after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 30px;
+        height: 30px;
+        bottom: -5px; left: 30px;
+        margin-left: 0;
+        background-color: #71C8FD;
+        border-radius: 0 50px 0 50px;
+        z-index: -1;
+        transform: rotate(30deg);
+        }
+}
+

@@ -1,0 +1,217 @@
+body {
+  background-color: #71C8FD;
+}
+
+.back {
+  width: 10%;
+  margin: 20px 0 0 10px;
+  color: #fff;
+  font-size: 36px;
+}
+
+.back a {
+  display: inline-block;
+}
+
+.friends {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border-bottom: solid 2px #fff;
+}
+
+.friends .icon {
+  width: 50%;
+}
+
+.friends .icon img {
+  width: 100%;
+}
+
+.friends .name {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+.friends .share {
+  background-color: #52B752;
+  position: absolute;
+  top: 60%;
+  left: 65%;
+  width: 100px;
+  text-align: center;
+  border-radius: 70px;
+}
+
+.friends .share a {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.search {
+  margin-top: 30px;
+}
+
+.search form {
+  margin-left: 20px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.search .box {
+  width: 95%;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #F0F0F0;
+  margin-bottom: 40px;
+}
+
+.request {
+  background-color: #52B752;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.request a {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.setting {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 440px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.setting ul li {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0 0 0;
+  border-bottom: solid 1px #000;
+}
+
+.setting ul li a {
+  display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  margin: 0 0 10px 10px;
+}
+
+.setting ul:last-child {
+  margin: 60px 0 100px 0;
+}
+
+.position {
+  position: relative;
+}
+
+.position .accounthead h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+.profileimg {
+  text-align: center;
+  border-bottom: solid 1px #fff;
+  margin: 80px 0 40px 0;
+}
+
+.profileimg a {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.accountlist {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.accountlist ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.accountlist ul li {
+  color: #fff;
+  width: 45%;
+  margin-bottom: 30px;
+}
+
+.accountlist ul li:nth-child(2n) {
+  border-bottom: solid 1px #fff;
+  margin-left: 10px;
+}
+
+.button {
+  background-color: #52B752;
+  width: 120px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 70px;
+}
+
+.button a {
+  width: 100%;
+  display: inline-block;
+  padding: 15px 0;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+}
+
+.position .title h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  top: 15%;
+  left: 37%;
+  position: absolute;
+}
+
+.ppp figure {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.ppp figure img {
+  border-radius: 20px;
+  width: 70%;
+}
+
+.ppp h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.ppp p {
+  font-size: 18px;
+  padding: 20px 40px;
+  color: #fff;
+  line-height: 1.6;
+}
+/*# sourceMappingURL=style.css.map */

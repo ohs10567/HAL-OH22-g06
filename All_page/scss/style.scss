@@ -1,0 +1,212 @@
+body{
+    background-color: #71C8FD;
+}
+
+.back{
+    width: 10%;
+    margin: 20px 0 0 10px;
+    color: #fff;
+    font-size: 36px;
+    a{
+        display: inline-block;
+    }
+}
+
+//friendlist.html
+.friends{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    border-bottom: solid 2px #fff;
+    .icon{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+    .name{
+        position: absolute;
+        top: 20%;
+        left:50%;
+        // margin-right: 80px;
+    }
+    .share{
+        background-color: #52B752;
+        position: absolute;
+        top: 60%;
+        left: 65%;
+        width: 100px;
+        text-align: center;
+        border-radius: 70px;
+        a{
+            width: 100%;
+            display: inline-block;
+            padding: 10px 0;
+            font-weight: bold;
+            color: #fff;
+        }
+    }
+}
+//friendlist.htmlここまで
+
+//addfriend.html
+.search{
+    margin-top: 30px;
+    form{
+        margin-left: 20px;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    .box{
+        width: 95%;
+        height: 40px;
+        margin: 0 auto;
+        border-radius: 5px;
+        background-color: #F0F0F0;
+        margin-bottom: 40px;
+    }
+}
+.request{
+    background-color: #52B752;
+    width: 95%;
+    margin: 0 auto;
+    a{
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        padding: 10px 0;
+        color: #fff;
+    }
+}
+//addfriend.htmlここまで
+
+//settinglist.html
+.setting{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 440px;
+    border-radius: 20px;
+    margin-top: 40px;
+    ul{
+        li{
+            width: 80%;
+            margin: 0 auto;
+            padding: 100px 0 0 0;
+            border-bottom: solid 1px #000;
+            a{
+                display: inline-block;
+                width: 100%;
+                font-size: 18px;
+                margin: 0 0 10px 10px;
+            }
+        }
+        &:last-child{
+            margin: 60px 0 100px 0;
+            // margin-bottom: 100px;
+        }
+    }
+}
+//settinglist.htmlここまで
+
+//accountinfomation.html
+.position{
+    position: relative;
+    // margin-bottom: 80px;
+    .accounthead{
+        h2{
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            position: absolute;
+            top: 15%;
+            left: 30%;
+        }
+    }
+}
+
+.profileimg{
+    text-align: center;
+    border-bottom: solid 1px #fff;
+    // margin-top: 80px;
+    margin: 80px 0 40px 0;
+    a{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+}
+
+.accountlist{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        li{
+            color: #fff;
+            width: 45%;
+            margin-bottom: 30px;
+            &:nth-child(2n){
+                border-bottom: solid 1px #fff;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.button{
+    background-color: #52B752;
+    width: 120px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 70px;
+    // text-align: center;
+    a{
+        width: 100%;
+        display: inline-block;
+        padding: 15px 0;
+        font-weight: bold;
+        color: #fff;
+        font-size: 16px;
+    }
+}
+//accountinfomation.htmlここまで
+
+//kaisetsu.html
+.position{
+    .title{
+        h1{
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            top: 15%;
+            left: 37%;
+            position: absolute;
+        }
+    }
+}
+
+.ppp{
+    figure{
+        text-align: center;
+        margin: 30px 0;
+        img{
+            border-radius: 20px;
+            width: 70%;
+        }
+    }
+    h2{
+        text-align: center;
+        color: #fff;
+    }
+    p{
+        font-size: 18px;
+        padding: 20px 40px;
+        color: #fff;
+        line-height: 1.6;
+    }
+}
+//kaisetsu.htmlここまで
